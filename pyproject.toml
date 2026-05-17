@@ -15,10 +15,11 @@ dependencies = [
     "pydantic[email]>=2.7.0",
     "python-jose[cryptography]>=3.3.0",
     "python-multipart>=0.0.9",
-    "ruff>=0.14.14",
     "sqlalchemy>=2.0.30",
     "uvicorn[standard]>=0.30.0",
 ]
 
 [dependency-groups]
-dev = []
+dev = [
+    "ruff>=0.14.14",
+]
